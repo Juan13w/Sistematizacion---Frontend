@@ -1,0 +1,31 @@
+/* Estilos del SearchForm */
+
+.search-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-form-content {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+}
+
+.search-form-hint {
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  margin-top: var(--spacing-md);
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .search-form-content {
+    flex-direction: column;
+  }
+  
+  .search-form-content button {
+    width: 100%;
+  }
+}
