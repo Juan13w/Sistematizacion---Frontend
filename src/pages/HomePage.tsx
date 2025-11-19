@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
       <main className="main-content">
         <div className="container">
           <section className="hero-section">
-            <h1 className="hero-title">🚗 Plataforma de Sistematización</h1>
+            <h1 className="hero-title">🚗 Plataforma de Sistematización ,</h1>
             <p className="hero-subtitle">
               Consulte el estado de sistematización de su vehículo
             </p>
